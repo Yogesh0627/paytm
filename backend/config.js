@@ -1,1 +1,1 @@
-export const JWT_secret = "Yogesh@0627!0130" 
+export const JWT_secret = "Your secret key" 
