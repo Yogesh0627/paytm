@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+dotenv.config()
 
 mongoose.connect(
-  "Your mongoose url / connection string "
+  process.env.MONGOOSE_URL
 );
 
 const userSchema = new mongoose.Schema({
